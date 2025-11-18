@@ -22,11 +22,11 @@
       "target": "AppImage"
     }
   },
-  "scripts": {
-    "lint": "eslint",
-    "dev": "concurrently \"next dev\" \"cross-env ELECTRON_START_URL=http://localhost:3000 electron .\"",
-    "build": "next build && next export",
-    "start": "electron ."
+"scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "lucide-react": "^0.553.0",
